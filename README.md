@@ -8,10 +8,6 @@
 
 > Feer2是[Feer](https://github.com/consolejs/feer-cli)的升级版，此命名灵感来自 **`F`** ront- **`E`** nd&ensp; Engine **`er`**, 即前端工程构建师 `FEer`, 类似`JAVAer` `PHPer`、
 
-<!-- <p align='center'>
-  <img src='./cli.svg' width='640' alt='yarn start'>
-</p> -->
-
 ### 使用
 
 - 全局安装
@@ -36,47 +32,6 @@ npx feer2 <your-project-name>
 ❯ ES - (base on the webpack & es)
   React - (base on the webpack & react)
   Vite - (base on the vitejs & react)
-```
-
-### 文件目录结构
-
-```c
-├── .babelrc ---> babel配置文件
-├── .gitignore ---> git过滤规则
-├── .eslintrc ---> ESLint配置
-├── .eslintignore ---> ESLint过滤规则
-├── README.MD
-├── package.json
-├── build/dist ---> 打包文件夹
-├── config ---> 配置文件夹(`*`)
-├── images ---> 图片资源文件 (使用cdn时，可删除该文件夹)
-└── src ---> 源代码文件夹
-```
-
-### config 配置
-
-```c
-├── env.js ----> 基础环境变量
-├── dev.js ----> 开发环境配置
-└── prod.js ---> 生产环境配置
-```
-
-### src 代码资源
-
-```c
-├── libs ---> 可存放引入的第三方库文件
-├── mods ---> 各模块业务逻辑
-├── index.js ---> 入口文件index.js
-└── sass/less ---> scss 源代码文件夹, 可自定义
-```
-
-### build/dist 编译输出
-
-```c
-├── index.html ---> html模板文件
-├── js ---> js源代码文件夹
-├── css ---> css资源文件
-└── img ---> 图片资源文件 (使用cdn时，可删除该文件夹)
 ```
 
 ### 特性
